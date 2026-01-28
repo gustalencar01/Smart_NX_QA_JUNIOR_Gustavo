@@ -8,6 +8,7 @@ para rodar o teste automatizado.
 
 O mesmo deve ser feito para cada pasta de teste, sempre iniciando o Cypress na pasta correta, fiz dessa maneira
 para que fique melhor de visualizar cada contexto de teste.
+O arquivo "spec.cy.js" em cada pasta contém o código do teste automatizado para aquele contexto específico.
 
 Os contextos de teste abordados são:
 - Tela de Login 
