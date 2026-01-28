@@ -1,0 +1,21 @@
+É necessário iniciar o Cypress na pasta referente a cada teste usando "npx cypress open" no terminal.
+
+Ex: Abro a pasta "Tela de Login" no terminal e executo o comando "npx cypress open" para iniciar o 
+Cypress naquela pasta específica.
+
+Após o Cypress abrir, selecionar o arquivo "spec.cy.js" na interface gráfica do Cypress
+para rodar o teste automatizado.
+
+O mesmo deve ser feito para cada pasta de teste, sempre iniciando o Cypress na pasta correta, fiz dessa maneira
+para que fique melhor de visualizar cada contexto de teste.
+
+Os contextos de teste abordados são:
+- Tela de Login 
+- Adição de "Employee"
+- Exclusão de "Employee"
+- Edição de "Employee"
+Cada pasta contém um arquivo "spec.cy.js" com o código do teste automatizado correspondente.
+
+Comandos úteis para rodar o Cypress no terminal:
+- npx cypress open      -> Abre a interface gráfica do Cypress
+- npx cypress run       -> Roda os testes no terminal (sem interface gráfica)
