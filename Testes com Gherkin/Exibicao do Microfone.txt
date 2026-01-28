@@ -1,0 +1,6 @@
+Cenário: Exibição do ícone de microfone na tela de atendimento
+
+Dado: Que o operador realizou a conexão com o sistema
+E: Que um atendimento foi direcionado para o operador
+Quando: O operador abrir o atendimento
+Então: O ícone de microfone deve ser exibido na tela

@@ -1,0 +1,6 @@
+Cenário: Solicitação de permissão ao iniciar a gravação
+
+Dado: Que o operador está com um atendimento aberto
+E: Que o sistema ainda não tem permissão para acessar o microfone
+Quando: O operador clicar para iniciar a gravação de áudio
+Então: O sistema deve solicitar permissão para acessar o microfone

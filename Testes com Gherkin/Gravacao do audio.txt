@@ -1,0 +1,6 @@
+Cenário: Início da gravação com exibição do tempo
+
+Dado: Que o operador está com um atendimento aberto
+E: Que a permissão de microfone foi concedida
+Quando: O operador clicar no botão para gravar o áudio
+Então: A gravação deve iniciar exibindo um indicador de tempo 

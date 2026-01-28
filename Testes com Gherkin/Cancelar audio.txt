@@ -1,0 +1,6 @@
+Cenário: Cancelamento do áudio gravado
+
+Dado: Que o operador pré-visualizando o áudio
+E: Que o operador decidiu não enviar o áudio
+Quando: O operador clica no botão de cancelar envio
+Então: O sistema deve descartar o áudio gravado e retornar à tela anterior

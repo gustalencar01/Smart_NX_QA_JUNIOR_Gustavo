@@ -1,0 +1,6 @@
+Cenário: Envio do áudio gravado
+
+Dado: Que o operador finalizou a gravação do áudio
+E: Que o operador está visualizando a pré-visualização do áudio
+Quando: O operador clica para enviar o áudio
+Então: O áudio deve ser enviado para o cliente com sucesso

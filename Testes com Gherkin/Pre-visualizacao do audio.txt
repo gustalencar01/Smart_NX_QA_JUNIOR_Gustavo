@@ -1,0 +1,5 @@
+Cenário: Pré-visualização do áudio gravado
+
+Dado: Que o operador gravou um áudio
+Quando: A gravação do áudio for concluída com sucesso
+Então: O operador deve ver uma pré-visualização do áudio gravado

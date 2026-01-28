@@ -1,0 +1,6 @@
+Cenário: Regravação de áudio
+
+Dado: Que o operador pré-visualizando o áudio
+E: Que o operador decidiu não enviar o áudio
+Quando: O operador clica no botão de regravar
+Então: O sistema deve descartar o áudio atual e inicia uma nova gravação
